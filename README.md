@@ -10,7 +10,7 @@ To run this example skill you need to do two things. The first is to deploy the 
 1. Go to the AWS Console and click on the Lambda link. Note: ensure you are in us-east or you won't be able to use Alexa with Lambda.
 2. Click on the Create a Lambda Function or Get Started Now button.
 3. Skip the blueprint
-4. Name the Lambda Function "About-the-Network".
+4. Name the Lambda Function "WiFi".
 5. Select the runtime as Node.js
 6. In the src directory, rename netSetup_TODO.js to netSetup.js and enter your SSID and password.
 7. Go to the the src directory, select all files and then create a zip file, make sure the zip file does not contain the src directory itself, otherwise Lambda function will not work.
