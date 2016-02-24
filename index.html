@@ -84,6 +84,28 @@ then update the lambda source zip file with this change and upload to lambda aga
 
 <pre><code>User:  "Alexa, ask about the network."
 </code></pre>
+
+<h3>
+<a id="template-for-test-case-or-service-simulator" class="anchor" href="#template-for-test-case-or-service-simulator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Template for test case or Service Simulator:</h3>
+
+<pre><code>{
+  "session": {
+    "sessionId": "SessionId.[my sessionId goes here]",
+    "application": {
+      "applicationId": "amzn1.echo-sdk-ams.app.[my applicationId goes here]"
+    },
+    "user": {
+      "userId": "amzn1.echo-sdk-account.[my userId goes here]"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "EdwRequestId.[my requestId goes here]",
+    "timestamp": "xxxx-xx-xxTxx:xx:xxZ"
+  }
+}
+</code></pre>
       </section>
     </div>
 
