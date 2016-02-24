@@ -25,7 +25,7 @@ To run this example skill you need to do two things. The first is to deploy the 
 
 ### Alexa Skill Setup
 1. Go to the [Alexa Console](https://developer.amazon.com/edw/home.html) and click Add a New Skill.
-2. Set "WiFi" for the skill name and "about the network" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, ask about the network."
+2. Set "About the Network" for the skill name and "about the network" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, ask about the network."
 3. Select the Lambda ARN for the skill Endpoint and paste the ARN copied from above. Click Next.
 4. Copy the Intent Schema from the included IntentSchema.json.
 5. Copy the Sample Utterances from the included SampleUtterances.txt. Click Next.
